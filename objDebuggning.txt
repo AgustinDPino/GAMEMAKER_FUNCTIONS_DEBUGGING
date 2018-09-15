@@ -1,0 +1,21 @@
+//__author__ = Agustin Del Pino
+Information about object: objDebugging
+Sprite: 
+Solid: false
+Visible: true
+Depth: 1874919424
+Persistent: true
+Parent: 
+Children: 
+Mask: 
+
+No Physics Object
+Create Event:
+
+execute code:
+//Me traigo las GCV
+GCV_DEBUGGING();
+//Seteo una variable para generar la dirección donde se alojará el log en base a las GCVs
+global.logDir = logFileDirectory+logFileName+logFileExtension;
+
+

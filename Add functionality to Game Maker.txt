@@ -1,0 +1,34 @@
+----------------- Adding new functionality to Game Maker ---------------------
+//__author__ = Agustin Del Pino
+
+Pre-requisites:
+	-> You would have the follow files: 
+	|----> « print.gml »
+	|----> « GCV_DEBUGGIN.gml »
+	|----> « objDebuggin.txt »
+		
+First Step:
+
+	-> Open your project and go to the Script Folder.
+	-> Right Click to Add Existing Script.
+	-> Search the « print.gml » file and open it.
+	-> Repeat the process for « GCV_DEBUGGIN.gml » file.
+
+Second Step:
+	
+	-> Open in text editor the « objDebuggin.txt ».
+	-> Create a new object based in the « objDebuggin.txt » information.
+	
+Third Step:
+	
+	-> Create a new Room and place to top of room list.
+	-> Name it as 'preLoadGlobalVariables'
+	-> Set the objDebuggin object in that room.
+	-> Write 'room_goto_next()' in the Creation Code of the room.
+
+Fourth Step:
+
+	-> Uses the new "print()" function in non-loop events. //Comming soon a new feature to uses this function in loop events.
+	-> Execute the project
+	-> And go to the working directory of your project to see the log.
+	
